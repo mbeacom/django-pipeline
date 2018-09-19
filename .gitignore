@@ -15,6 +15,7 @@ tests/static/
 tests/assets/js/dummy.js
 tests/node_modules/
 .tox/
+.pytest_cache/
 .DS_Store
 .idea
 .venv
