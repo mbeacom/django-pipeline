@@ -52,10 +52,22 @@ matrix:
       python: "3.5"
     - env: TOXENV=py36-django20
       python: "3.6"
+    - env: TOXENV=py37-django20
+      python: "3.7"
+    - env: TOXENV=py35-django21
+      python: "3.5"
+    - env: TOXENV=py36-django21
+      python: "3.6"
+    - env: TOXENV=py37-django21
+      python: "3.7"
     - env: TOXENV=py35-django-master
       python: "3.5"
     - env: TOXENV=py36-django-master
       python: "3.6"
+    - env: TOXENV=py37-django-master
+      python: "3.7"
+      sudo: true
+      dist: xenial
     - env: TOXENV=docs
       python: "2.7"
   allow_failures:
