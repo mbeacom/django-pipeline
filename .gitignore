@@ -27,3 +27,6 @@ tests/npm-cache
 django-pipeline-*/
 .tags
 node_modules/
+
+.pytest_cache/
+.vscode/
